@@ -31,7 +31,7 @@ public class CalculatorServiceImplTest {
 
     @Test
     public void testMinus() {
-        assertEquals("10-2=7", calculatorServiceImpl.minus(firstValue, secondValue));
+        assertEquals("10-2=8", calculatorServiceImpl.minus(firstValue, secondValue));
     }
 
     @Test
